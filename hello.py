@@ -34,7 +34,7 @@ class Hello ():
 		name = name.lower ()
 
 		if name in self.state ['names']:
-			self.state ['names']['name'] += 1
+			self.state ['names'][name] += 1
 		else:
-			self.state ['names']['name'] = 1
+			self.state ['names'][name] = 1
 
